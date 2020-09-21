@@ -16,7 +16,7 @@ def main():
 
     fig.update_layout(
         title_text='Mask Usage by State',
-        geo_scope='usa',  # limite map scope to USA
+        geo_scope='usa',  # limit map scope to USA
     )
 
     fig.show()
