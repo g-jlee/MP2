@@ -6,7 +6,7 @@ import pandas as pd
 def main():
     ######################################
     # Mask usage by state
-    df = pd.read_csv(r'C:\Users\gleee\OneDrive\Desktop\GeorgiaTech\2020Fall\CS6440\MiniProject2\MaskData_Formatted.csv')
+    df = pd.read_csv(r'https://raw.githubusercontent.com/g-jlee/MP2/master/MaskData_Formatted.csv')
     fig = go.Figure(data=go.Choropleth(
         locations=df['code'],  # Spatial coordinates
         z=df['mask'].astype(float),  # Data to be color-coded
@@ -24,7 +24,7 @@ def main():
 
     ######################################
     # Covid cases by state
-    df = pd.read_csv(r'C:\Users\gleee\OneDrive\Desktop\GeorgiaTech\2020Fall\CS6440\MiniProject2\DeathData_Formatted.csv')
+    df = pd.read_csv(r'https://raw.githubusercontent.com/g-jlee/MP2/master/DeathData_Formatted.csv')
     fig = go.Figure(data=go.Choropleth(
         locations=df['code'],  # Spatial coordinates
         z=df['cases'].astype(float),  # Data to be color-coded
@@ -42,7 +42,7 @@ def main():
 
     ######################################
     # Covid deaths by state
-    df = pd.read_csv(r'C:\Users\gleee\OneDrive\Desktop\GeorgiaTech\2020Fall\CS6440\MiniProject2\DeathData_Formatted.csv')
+    df = pd.read_csv(r'https://raw.githubusercontent.com/g-jlee/MP2/master/DeathData_Formatted.csv')
     fig = go.Figure(data=go.Choropleth(
         locations=df['code'],  # Spatial coordinates
         z=df['deaths'].astype(float),  # Data to be color-coded
