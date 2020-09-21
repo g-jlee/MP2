@@ -1,0 +1,13 @@
+Mask Data
+https://today.yougov.com/topics/politics/articles-reports/2020/05/08/states-are-more-and-less-likely-adopt-face-masks
+
+To format
+1. Remove Row 0 - Generic Header
+2. Remove Row 1 - Not interested in all of US as aggregate
+
+Cases/Deaths Data
+https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
+To format
+1. Filter date by selecting September 19, 2020 which is the most recent data
+1. Add 'code' column for indexing
+2. Remove rows for states not considered including: Guam, Northern Mariana Islands, Puerto Rico, Virgin Islands

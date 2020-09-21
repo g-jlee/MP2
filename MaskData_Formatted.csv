@@ -1,0 +1,52 @@
+code,state,mask
+AL,Alabama,38
+AK,Alaska,42
+AZ,Arizona,36
+AR,Arkansas,39
+CA,California,52
+CO,Colorado,49
+CT,Connecticut,47
+DE,Delaware,41
+DC,District of Columbia,56
+FL,Florida,44
+GA,Georgia,45
+HI,Hawaii,58
+ID,Idaho,31
+IL,Illinois,43
+IN,Indiana,36
+IA,Iowa,29
+KS,Kansas,32
+KY,Kentucky,32
+LA,Louisiana,39
+ME,Maine,38
+MD,Maryland,49
+MA,Massachusetts,46
+MI,Michigan,46
+MN,Minnesota,33
+MS,Mississippi,44
+MO,Missouri,37
+MT,Montana,23
+NE,Nebraska,34
+NV,Nevada,45
+NH,New Hampshire,46
+NJ,New Jersey,56
+NM,New Mexico,39
+NY,New York,53
+NC,North Carolina,37
+ND,North Dakota,34
+OH,Ohio,33
+OK,Oklahoma,37
+OR,Oregon,41
+PA,Pennsylvania,46
+RI,Rhode Island,52
+SC,South Carolina,37
+SD,South Dakota,32
+TN,Tennessee,39
+TX,Texas,43
+UT,Utah,33
+VT,Vermont,43
+VA,Virginia,41
+WA,Washington,40
+WV,West Virginia,39
+WI,Wisconsin,31
+WY,Wyoming,38
